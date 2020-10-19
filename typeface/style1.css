@@ -1,0 +1,331 @@
+
+.r1 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(30, 121, 183);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.r1:hover {
+    background-color: rgb(243,232,136);
+}
+
+.r2 {
+	 width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 175px;
+    left: 225px;
+}
+
+.r3 {
+	 width: 10px;
+    height: 87px;
+    background-color: rgb(255, 255, 254);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 315px;
+    left: 240px;
+}
+
+.r4 {
+	position: absolute;
+    top: 210px;
+    left: 371px;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid rgb(255, 255, 255);
+
+}
+
+.r5 {
+    position: absolute;
+    top: 365px;
+    left: 210px;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 35px solid rgb(255, 255, 255);       
+
+}
+.a1 {
+	width: 300px;
+    height: 300px;
+    background-color: rgb(30, 121, 183);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 100px;
+    left: 415px;
+}
+.a1:hover {
+    background-color:rgb(243,232,136);
+}
+
+.a2 {
+	width: 10px;
+    height: 85px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 315px;
+    left: 557px;
+
+}
+.a3 {
+	width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 175px;
+    left: 545px;
+}
+
+.a4 {
+   position: absolute;
+    top: 368px;
+    left: 527px;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 35px solid rgb(255, 255, 255);    
+}
+.n1 {
+	 width: 300px;
+    height: 300px;
+    background-color: rgb(30, 121, 183);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 100px;
+    left: 730px;
+}
+.n1:hover {
+    background-color: rgb(243,232,136);
+}
+	
+.n2 {
+     width: 10px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 330px;
+    left: 815px;
+
+}
+.n3 {
+    width: 10px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 125px;
+    left: 930px;  
+
+}
+.n4 {
+   position: absolute;
+    top: 364px;
+    left: 785px;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-bottom: 35px solid rgb(255, 255, 255);  
+    border-right: 35px solid transparent;    
+}
+.n5 {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-top: 35px solid rgb(255, 255, 255);  
+    border-right: 35px solid transparent;      
+}
+
+.g1 {
+	width: 300px;
+    height: 300px;
+    background-color: rgb(30, 121, 183);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 100px;
+    left: 1045px;
+}
+.g1:hover {
+    background-color: rgb(243,232,136);
+}
+
+.g2 {
+	width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 254);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 175px;
+    left: 1220px;
+}
+
+.g3 {
+	width: 10px;
+    height: 80px;
+    background-color: rgb(255, 255, 254);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 162px;
+    left: 1302px;
+    transform: rotate(90deg);
+}
+
+.g4 {
+    position: absolute;
+    top: 165px;
+    left: 1310px;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-right: 35px solid rgb(255, 255, 255);
+}
+.e1 {
+	width: 300px;
+    height: 300px;
+    background-color: rgb(30, 121, 183);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 100px;
+    left: 1360px;
+}
+
+.e1:hover {
+    background-color: rgb(243,232,136);
+}
+
+.e2 {
+    width: 10px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 160px;
+    left: 1610px;
+    transform: rotate(90deg); 
+}
+
+.e3 {
+    width: 10px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 250px;
+    left: 1610px;
+    transform: rotate(90deg);  
+}
+
+.e5 {
+    position: absolute;
+    top: 260px;
+    left: 1625px;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-right: 35px solid rgb(255, 255, 255); 
+}
+.e6 {
+    position: absolute;
+    top: 170px;
+    left: 1625px;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-right: 35px solid rgb(255, 255, 255);  
+}
+.s1 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(30, 121, 183);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 100px;
+    left: 1675px;  
+}
+
+.s1:hover {
+    background-color: rgb(243,232,136);
+}
+
+.s2 {
+    width: 10px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 250px;
+    left: 1713px;
+    transform: rotate(90deg);
+}
+
+.s3 {
+    width: 10px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 160px;
+    left: 1925px;
+    transform: rotate(90deg);
+}
+
+.s4 {
+    position: absolute;
+    top: 170px;
+    left: 1940px;
+    width: 0;
+    height: 0;
+    border-bottom: 35px solid transparent;
+    border-right: 35px solid rgb(255, 255, 255);  
+    border-top: 35px solid transparent;    
+}
+.s5 {
+    position: absolute;
+    top: 258px;
+    left: 1675px;
+    width: 0;
+    height: 0;
+    border-bottom: 35px solid transparent;
+    border-left: 35px solid rgb(255, 255, 255);  
+    border-top: 35px solid transparent;    
+}
+h1{
+    font-family: helvetica;
+    font-size:50px;
+    font-weight:700;
+    text-align; left;
+    margin-left:100px;
+    margin-top:450px;
+}
+p {
+    width:550px;
+    font-family: helvetica;
+    font-size:22px;
+    line-height: 30px;
+    font-weight:400;
+    text-align; left;
+    letter-spacing: 1px;
+    margin-left:100px;
+    margin-top:7px;
+}
+
+   
