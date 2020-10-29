@@ -1,9 +1,9 @@
 h1 {
 	position:absolute;
 	font-family: Geogia, Serif;
-	font-size: 135px;
-	top: 210px;
-	left:30px;
+	font-size: 250px;
+	top: 90px;
+	left:100px;
 	transform: rotate(0deg);
 	font-weight: 400;
 	color: rgb(255 , 255, 255);
@@ -12,9 +12,9 @@ h1 {
 h2 {
 	position:absolute;
 	font-family: Geogia, Serif;
-	font-size: 132px;
-	top: 193px;
-	left:37px;
+	font-size: 250px;
+	top: 49px;
+	left:107px;
 	transform: rotate(0deg);
 	font-weight: 400;
 	color: rgb(240 , 190, 140);
@@ -22,33 +22,70 @@ h2 {
 h3 {
 	position:absolute;
 	font-family: Geogia, Serif;
-	font-size: 75px;
-	top: 355px;
-	left:37px;
+	font-size: 55px;
+	top: 445px;
+	right: 200px;
 	transform: rotate(0deg);
 	font-weight: 400;
-	color: rgb(240 , 190, 140);
+	color: rgb(255 , 255, 255);
+	text-align: center;
+
 }
 h4 {
 	position:absolute;
 	font-family: Geogia, Serif;
-	font-size: 25px;
-	top: -20px;
-	right:37px;
+	font-size: 20px;
+	top: 80px;
+	right:220px;
 	transform: rotate(0deg);
-	font-weight: 400;
+	font-weight: 700;
 	color: rgb(109 , 25, 25);
 }
+h5 {
+	position:absolute;
+	font-family: Geogia, Serif;
+	font-size: 20px;
+	top: 95px;
+	right:220px;
+	transform: rotate(0deg);
+	font-weight: 700;
+	color: rgb(109 , 25, 25);
+}
+
+h6 {
+	position:absolute;
+	font-family: Geogia, Serif;
+	font-size: 14px;
+	top: 230px;
+	right:276px;
+	transform: rotate(0deg);
+	font-weight: 700;
+	color: rgb(109 , 25, 25);
+	text-align: left;
+}
+
+.line {
+  
+  position: absolute;
+  background-color: rgb(109,25,25);
+  width: 90px;
+  height: 6px;
+  right: 275px;
+  top: 155px; 
+}
+
 p{
 	position: absolute;
-	bottom: 10px;
-	right: 75px;
+	top: 150px;
+	right: 238px;
 	font-family:'csc', serif;
-	font-size: 20px;
-	line-height: 26px;
+	font-size: 17px;
+	line-height: 22px;
 	color: white;
-	text-align: right;
+	text-align: left;
+	width: 130px;
 }
+
 
 .background {
 	position: absolute;
@@ -66,43 +103,78 @@ p{
 	h1 {
 		position: absolute;
 		top: auto;
-		font-size: 36px;
+		font-size: 67px;
 		left: 0;
 		width: 100vw;
-		bottom: 10px;
+		bottom: 12px;
 		text-align: center;
 	}
 	h2 {
-		font-size:36px;
+		font-size:69px;
+		top: auto;
 		left: 0;
 		width: 100vw;
-		bottom: 10px;
+		bottom: 0px;
 		text-align: center;
 	}
 
 	h3 {
-		font-size:30px;
+		position: absolute;
+		top: auto;
+		font-size:35px;
 		left: 0;
 		width: 100vw;
+		bottom: -9px;
 		text-align: center;
+
 	}
 	h4 {
+		position: absolute;
 		font-size:20px;
-		left: 0;
+		bottom: auto;
+		top: 30px;
+		left: 30px;
 		width: 100vw;
-		text-align: center;
+		font-weight: 700;
+		
+
 	}
-	p {
+	h5 {
+		position: absolute;
+		font-size:20px;
+		bottom: auto;
+		left: 30px;
+		top: 45px;
+		width: 100vw;
+		font-weight: 700;
+
+	}
+	h6 {
 		font-size: 15px;
-		top:100px;
-		left: 15px;
+		top:170px;
+		left: 30px;
 		width: 100vw;
 		bottom: 0;
 		text-align: left;
-		line-height:;
+		
 	}
-	.background {
-	 background-image: url("beyonce1.png");
-	 background-size: cover;
-	}
+	.line {
+        position: absolute;
+        background-color: rgb(109,25,25);
+        width: 90px;
+        height: 4px;
+        left: 30px;
+        top: 110px; 
+    }
+	p {
+		font-size: 15px;
+		top:110px;
+		left: 30px;
+		width: 100vw;
+		bottom: 0;
+		width:115px;
+		line-height: 20px;
+		text-align: left;
+		line-height: 17px;
+	
 }
