@@ -1,23 +1,414 @@
+body{
+	background-color: white;
+}
+
 h1 {
 	
 	position:absolute;
-	font-family: bold, sanSerif;
-	font-size: 100px;
-	top: 250px;
-	left:200px;
+	font-family: roman, avenir;
+	font-size: 75px;
+	top: 60px;
+	left:420px;
 	transform: rotate(0deg);
 	font-weight: 400;
 	color: rgb(0, 0, 0);
 	text-align: center;
 }
-img {
+h2 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 22px;
+	top: 200px;
+	left:710px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(0, 0, 0);
+	text-align: center; 
+}
+
+.relative-box {
+	position: relative;
+	left: 34px;
+	width: 1470px;
+	height: 300px;
+	margin-bottom: 20px;
+	background-color: rgb( 255, 255, 255);
+}
+.line1 {
+	 width: 50px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 255px;
+    left: 750px;
+}
+.s1 {
+	background-image: url("shadow1.jpg")
+}
+.s1:after{
+	content:"Greg Lotus";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color: white;
+	text-align: center;
+	line-height: 225px;
+	opacity: 0;
+}
+.s1:hover:after{
+	opacity:1;
+}
+.s2 {
+	background-image: url("shadow2.jpg")
+}
+.s2:after{
+	content:"Solve Sundsbo";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+.s2:hover:after{
+	opacity:1;
+}
+.s4 {
+	background-image: url("shadow4.jpeg")
+}
+.s4:after{
+	content:"Wendy Hope";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+.s4:hover:after{
+	opacity:1;
+}
+.s5 {
+	background-image: url("shadow5.jpeg")
+}
+.s5:after{
+	content:"Lucien Clergue";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+.s5:hover:after{
+	opacity:1;
+}
+.s6 {
+	background-image: url("shadow6.jpeg")
+}
+.s6:after{
+	content:"Emilia Bergmark-Jimenez";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+.s6:hover:after{
+	opacity:1;
+}
+.s7 {
+	background-image: url("shadow7.jpeg")
+}
+.s7:after{
+	content:"Solve Sundsbo";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+.s7:hover:after{
+	opacity:1;
+}
+.s8 {
+	background-image: url("shadow8.jpeg")
+}
+.s8:after{
+	content:"Herb Ritts";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+.s8:hover:after{
+	opacity:1;
+}
+.s9 {
+	background-image: url("shadow9.jpeg")
+}
+.s9:after{
+	content:"Lucien Clergue";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+.s9:hover:after{
+	opacity:1;
+}
+.s10 {
+	background-image: url("shadow10.jpeg")
+}
+.s10:after{
+	content:"Wendy Hope";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+.s10:hover:after{
+	opacity:1;
+}
+.s11 {
+	background-image: url("shadow11.jpeg")
+}
+.s11:after{
+	content:"Chris Maher";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+.s11:hover:after{
+	opacity:1;
+}
+.s12 {
+	background-image: url("shadow12.jpeg")
+}
+
+.s12:after{
+	content:"Unknown";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+
+.s12:hover:after{
+	opacity:1;
+}
+.s13 {
+	background-image: url("shadow13.jpeg")
+}
+.s13:after{
+	content:"Unknown";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+
+.s13:hover:after{
+	opacity:1;
+}
+.s14 {
+	background-image: url("shadow14.jpg")
+}
+.s14:after{
+	content:"Francis Giacobetti";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+
+.s14:hover:after{
+	opacity:1;
+}
+.s15 {
+	background-image: url("shadow15.jpg")
+}
+.s15:after{
+	content:"Vladimir Zotov";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+
+.s15:hover:after{
+	opacity:1;
+}
+
+.s16 {
+	background-image: url("shadow16.jpg")
+}
+.s16:after{
+	content:"Neil Snape";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+
+.s16:hover:after{
+	opacity:1;
+}
+.s17 {
+	background-image: url("shadow17.gif")
+}
+.s17:after{
+	content:"Charles Nevols";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+
+.s17:hover:after{
+	opacity:1;
+}
+.s18 {
+	background-image: url("shadow18.jpg")
+}
+.s18:after{
+	content:"Oscar Jimenez";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+
+.s18:hover:after{
+	opacity:1;
+}
+.s19 {
+	background-image: url("shadow19.jpeg")
+}
+.s19:after{
+	content:"Maksim Zayats";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: center;
+	line-height: 225px;
+	opacity:0;
+}
+
+.s19:hover:after{
+	opacity:1;
+}
+
+.shadow {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  left: 40px;
+  height: 225px;
+  width: 225px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
 
 }
-.relative-shadow1 {
-	position: absolute;
-	top: 40px;
-	left: 600px;
-	width: 200px;
-	height: 200px;
-
+.special {
+	background-color: rgb(255, 255, 255);
 }

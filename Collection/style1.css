@@ -1,0 +1,420 @@
+body {
+	background-color: black;
+}
+.line1 {
+	 width: 50px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 245px;
+    left: 700px;
+}
+.line2 {
+	width: 20px;
+	height: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 750px;
+    left: 235px;
+}
+.line3 {
+	width: 20px;
+	height: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 750px;
+    left: 690px;
+}
+.line4 {
+	width: 20px;
+	height: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 750px;
+    left: 1125px;
+}
+.line5 {
+	width: 20px;
+	height: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 1190px;
+    right: 270px;
+}
+.line6 {
+	width: 20px;
+	height: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 1190px;
+    right: 720px;
+}
+.line7 {
+	width: 20px;
+	height: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 1190px;
+    left: 250px;
+}
+.line8 {
+	width: 20px;
+	height: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 1638px;
+    left: 240px;
+}
+.line9 {
+	width: 20px;
+	height: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 1638px;
+    right: 720px;
+}
+.line10 {
+	width: 20px;
+	height: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    top: 1638px;
+    right: 270px;
+}
+
+.relative-box {
+	position: relative;
+	left: 34px;
+	width: 1350px;
+	height: 300px;
+	margin-bottom: 20px;
+	background-color: rgb( 0, 0, 0);
+}
+
+h1 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 75px;
+	top: 60px;
+	left:450px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+h2 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 18px;
+	top: 700px;
+	left:200px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255,255, 255);
+	text-align: center;
+}
+
+h3 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 18px;
+	top: 700px;
+	left:660px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255,255, 255);
+	text-align: center;
+}
+h4 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 18px;
+	top: 698px;
+	left:1080px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255,255, 255);
+	text-align: center;
+}
+h5 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 18px;
+	top: 1130px;
+	left:200px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255,255, 255);
+	text-align: center;
+}
+h6 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 18px;
+	top: 1120px;
+	left:640px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255,255, 255);
+	text-align: center;
+}
+.h7 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 18px;
+	top: 200px;
+	left:700px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+.h8 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 18px;
+	top: 1145px;
+	left:1120px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255,255, 255);
+	text-align: center;
+}
+.h9 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 18px;
+	top: 1590px;
+	left:190px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255,255, 255);
+	text-align: center;
+}
+.h10 {
+    position:absolute;
+	font-family: roman, avenir;
+	font-size: 18px;
+	top: 1590px;
+	left:615px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255,255, 255);
+	text-align: center;	
+}
+.h11 {
+	position:absolute;
+	font-family: roman, avenir;
+	font-size: 18px;
+	top: 1590px;
+	left:1110px;
+	transform: rotate(0deg);
+	font-weight: 400;
+	color: rgb(255,255, 255);
+	text-align: center;	
+}
+
+.p1 {
+	background-image: url("Lotus.jpg")
+}
+.p1:after{
+	content:"Greg Lotus' work can be found regularly in the pages of Italian Vogue, Vanity Fair, GQ, L'Uomo Vogue. and W magazine. Aside from his editorial work for major American and European publications, Lotus has shot advertsiing campaigns for Escada, L'Oreal,Levi's and more.";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color: white;
+	text-align: left;
+	line-height: 30px;
+	opacity: 0;
+}
+.p1:hover:after{
+	opacity:1;
+}
+.p2 {
+	background-image: url("snape.jpg")
+}
+.p2:after{
+	content:"Snape is a photographer, videographer, and consultanst specialised in product development and research concerning colour fo IT. He has a power engineering degree from British Columbia Insiture of Technology. Some of his past clients included YSL, Hermes, Cartier, Hennessy and more. His work was publised in various magazines including Vogue, Biba, Allure, Marie Claire and the list goes on.";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: left;
+	line-height: 30px;
+	opacity:0;
+}
+.p2:hover:after{
+	opacity:1;
+}
+
+.p3 {
+	background-image: url("lucien.jpg")
+}
+.p3:after{
+	content:"lucien Clergue was a pioneerinf French photographer who devoted his career to elevating photography to a high art, on a par with the leading artistic medium of his day, painting. Clergue's work encompassed landscapes, portraits, and still lifes, with his studies of the female nude generating particular acclaim.";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: left;
+	line-height: 30px;
+	opacity:0;
+}
+.p3:hover:after{
+	opacity:1;
+}
+.p4 {
+	background-image: url("sundsbo.jpg")
+}
+.p4:after{
+	content:"Solve Sundsbo is a Norwegian fashion photographer basied in London. He studied photography at the London College of Printing. Sundsbo has photographed advertisements for fashion and beauty brands, including Armani, Chanel, Cartier, Gucci, Dolce & Gabbana, Louis Vuitton, Hermes and many more.";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: left;
+	line-height: 30px;
+	opacity:0;
+}
+.p4:hover:after{
+	opacity:1;
+}
+.p5 {
+	background-image: url("francis.jpg")
+}
+.p5:after{
+	content:"Francis Giacobette is a French photographer. His work was featured in exhibitions at The Little Black Gallery and Steven Kasher Gallery. His work has been offered at auction mutiple times with pricing ranging from $740 USD to $50,423 USD, depending on the size and  medium of the artwork.";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: left;
+	line-height: 30px;
+	opacity:0;
+}
+.p5:hover:after{
+	opacity:1;
+}
+.p6 {
+	background-image: url("ritts.jpg")
+}
+.p6:after{
+	content:"Herb Ritts began his photographic career in the late 70s and gained a reputatuion as amaster of art and commercial photography. In addition to producing editorial fashion for Vogue, Vanity Fair and Rolling Stone, He also created successful advertsing campaigns for Calvin Klein, Chanel, Gap and Valention,among others. His fine art photography has been the subject of exhibitions worldwide, with works residing in many significant public and private collections.";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: left;
+	line-height: 30px;
+	opacity:0;
+}
+.p6:hover:after{
+	opacity:1;
+}
+
+.p7 {
+	background-image: url("hope.jpg");
+}
+
+.p7:after{
+	content:"Wendy Hope ia a fun and whimsical photographer and visual artist. Her work combines both technical precision and attention to detail which is refleted in her lighting and style.";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: left;
+	line-height: 30px;
+	opacity:0;
+}
+.p7:hover:after{
+	opacity:1;
+}
+.p8 {
+	background-image: url("emilia.jpg");
+}
+
+.p8:after{
+	content:"Emilia is a photographer,feminist, and a lover of analogue photography.";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: left;
+	line-height: 30px;
+	opacity:0;
+}
+.p8:hover:after{
+	opacity:1;
+}
+.p9 {
+	background-image: url("chris.jpg");
+}
+
+.p9:after{
+	content:"Chris is a professional fine art photographer with more than 25 years of experience. He sells his prints at art shows, galleries and more recently on the web. He exhibits his work at more than 20 shows per year. Most of his work consists of woman, expressing the beauty and power using pure form and flow of light.";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color: rgb(0, 0, 0);
+	color:white;
+	text-align: left;
+	line-height: 30px;
+	opacity:0;
+}
+.p9:hover:after{
+	opacity:1;
+}
+
+.photographer {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  left: 40px;
+  height: 375px;
+  width: 375px;
+  display: inline-block;
+  margin-right: 32px;
+  margin-left:32px;
+  margin-bottom: 65px;
+  background-size: cover;
+  background-position: center;
+
+}
+.special {
+	background-color: rgb(255, 255, 255);
+}
